@@ -1,7 +1,8 @@
 # tarunaNangla.github.io
 https://tarunanangla.github.io/
 
-
+<h1>TECH STACK</h1>
+React, Bootstrap, npm
 
 ![Screenshot 2022-10-22 172555](https://user-images.githubusercontent.com/99668292/197337718-1f539086-7f6a-4f7d-9e29-e24144cdc9be.jpg)
 
