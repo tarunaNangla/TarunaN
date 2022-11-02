@@ -15,6 +15,7 @@ import { greeting, intro, myName } from '../../constants/constants';
 import { Calendar } from '../Calender/Calender';
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
+import Streak from '../Streak/Streak';
 
 const Home = ({ scrollRef }) => {
 	const [projectArray, setProjectArray] = useState(
@@ -146,15 +147,19 @@ const Home = ({ scrollRef }) => {
 				</div>
 			</div>
 
-
-			
-			<div id="projects" className={styles.projects}> 
-        <h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
+    
+			<h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
           Days I Code
         </h1>
         <div className={styles.borderBottom} />
         <Calendar/>
+		{/* <Streak/> */}
+			
+			<div id="projects" className={styles.projects}> 
+       
       </div>
+
+	  
 
 			{/* project section from here => */}
 			<div id='projects' className={styles.projects}>
@@ -162,7 +167,7 @@ const Home = ({ scrollRef }) => {
 					style={{ color: `${newTheme.title}` }}
 					className={styles.heading}
 				>
-					Few Things I've Build
+					Projects
 				</h1>
 				<div className={styles.borderBottom} />
 				<div>
@@ -179,7 +184,8 @@ const Home = ({ scrollRef }) => {
 					handleButton={handleShowMoreBtn}
 				/>
 			</div>
-
+             
+			 
 			<div
 				style={{
 					background: `${newTheme.highlightBackground}`,

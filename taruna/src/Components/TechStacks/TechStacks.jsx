@@ -19,7 +19,7 @@ const TechStacks = () => {
 				className={styles.heading}
 				// id="Proficiencies"
 			>
-				Proficiencies
+				Skills
 			</h1>
 			<div className={styles.borderBottom} />
 		     

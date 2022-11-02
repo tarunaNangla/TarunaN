@@ -5,7 +5,7 @@ body {
 	padding: 0;
 	margin: 0;
 	max-width: 100vw;
-	font-family: 'Roboto Mono', monospace;
+	font-family: lorem;
 }
 body::before {
 	content: '';
@@ -24,7 +24,7 @@ body::after {
 	width: 100%;
 	height: 100%;
 	opacity: 0.2;
-	background: linear-gradient(#1b2aff, #11dbff);
+	background: linear-gradient(#1b2aff, #1111ff);
 	clip-path: circle(10% at 5% 5%);
 }
 .intro {
@@ -80,7 +80,7 @@ body::after {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-	border-bottom: 7px solid #9802be;
+	border-bottom: 7px solid #0b0a0b;
 	transform: rotate(-2deg);
 	transition: 0.5s;
 	position: fixed;

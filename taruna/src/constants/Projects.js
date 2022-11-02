@@ -1,6 +1,6 @@
 export const projects = [
 	{
-		img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbi_x7zPIMM0Ej_DLxRkQMdiSZSKJ_Jv4L-Q&usqp=CAU',
+		img: 'https://miro.medium.com/max/1400/1*lpbsx0ViyGETjTNvWbXC2g.png',
 		title: 'Clone of Revv Cars',
 		des: "Revv is India's best and most trusted Traveling facilities provider website which has helped millions of needies.",
 		demo: '',

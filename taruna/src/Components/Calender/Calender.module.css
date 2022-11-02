@@ -1,0 +1,27 @@
+/* .streak{
+    width: 300px;
+} */
+
+@media only screen and (max-width: 1150px) {
+	.streak{
+        /* height:450px; */
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+	.streak{
+        /* height:350px; */
+        width: 200px;
+    }
+	/* .logoWrapper {
+		padding: 20px 20px;
+	} */
+}
+@media only screen and (max-width: 450px) {
+	.streak{
+        /* margin-top: 10px; */
+        /* height:150px; */
+        width: 100px;
+    }
+}
