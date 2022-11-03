@@ -85,7 +85,8 @@ const Home = ({ scrollRef }) => {
 					<h1>{intro}</h1>
 					<div className={styles.btn}>
 						<a
-							href='https://drive.google.com/file/d/1IGq3guE5WTNbR5Dcc0_neATVDO9RR5by/view?usp=sharing'
+							href='Resume/Taruna fw16_331-1 (4).pdf'
+							download={true}
 							target='_blank'
 							rel='noreferrer'
 						>

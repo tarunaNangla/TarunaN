@@ -244,7 +244,7 @@ const TechStacks = () => {
 				</div>
 			</div>
           
-			<h1
+			{/* <h1
 				style={{ color: `${newTheme.title}` }}
 				className={styles.heading}
 				// id="Proficiencies"
@@ -306,7 +306,7 @@ const TechStacks = () => {
 
 			</table>
 			</div>
-			
+			 */}
 		
 		</div>
 	);
