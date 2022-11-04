@@ -1,7 +1,7 @@
 {
 	"name": "taruna",
 	"version": "0.1.0",
-	"homepage": "https://Naquee.github.io/",
+	"homepage": "https://tarunaNangla.github.io/",
 	"private": true,
 	"dependencies": {
 		"@material-ui/core": "^4.12.3",
@@ -20,6 +20,8 @@
 		"web-vitals": "^1.1.2"
 	},
 	"scripts": {
+		
+
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
