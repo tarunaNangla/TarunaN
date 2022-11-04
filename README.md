@@ -1,5 +1,5 @@
 # tarunaNangla.github.io
-https://tarunanangla.github.io/
+https://63639e58eb51f46857dfc7cc--taruna.netlify.app/
 
 <h1>feature</h1>
 <ol>
