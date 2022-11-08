@@ -13,7 +13,7 @@ body::before {
 	width: 100%;
 	height: 100%;
 	opacity: 0.1;
-	background: linear-gradient(#7f04f1, #3bf8b9);
+	/* background: linear-gradient(#7f04f1, #3bf8b9); */
 	clip-path: circle(18% at right 60%);
 }
 body::after {
@@ -24,7 +24,7 @@ body::after {
 	width: 100%;
 	height: 100%;
 	opacity: 0.2;
-	background: linear-gradient(#1b2aff, #1111ff);
+	/* background: linear-gradient(#1b2aff, #1111ff); */
 	clip-path: circle(10% at 5% 5%);
 }
 .intro {

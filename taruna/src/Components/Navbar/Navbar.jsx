@@ -55,7 +55,9 @@ const Navbar = () => {
 			}}
 		>
 			<div className={styles.navbar}>
-				<a href='https://63639cc316eb1665891eb2ed--taruna.netlify.app/'>
+				<a 
+				// href='https://63639cc316eb1665891eb2ed--taruna.netlify.app/'
+				>
 					<div className={styles.logo}>
 						<img src='https://media-exp1.licdn.com/dms/image/C4D03AQECQF279-lW7w/profile-displayphoto-shrink_400_400/0/1654181976918?e=1668643200&v=beta&t=OqZ-sdQ9PF5SD4BmW-GX7PF1EHLq3mabUvahhRpGVfg' alt='Logo' />
 					</div>
@@ -74,7 +76,7 @@ const Navbar = () => {
 					<a href='#contact'>Contact</a>
 					{/* <a href='#contact'>Contact</a> */}
 				</div>
-				<button
+				{/* <button
 					aria-label={mode === 'dark' ? 'Light Mode' : 'Dark Mode'}
 					title={
 						mode === 'dark' ? 'Toggle Light Mode' : 'Toggle Dark Mode'
@@ -92,7 +94,7 @@ const Navbar = () => {
 							className={styles.crescent}
 						></div>
 					</div>
-				</button>
+				</button> */}
 
 				<div onClick={handleMenu} className={styles.bars}>
 					<div
