@@ -25,10 +25,11 @@ function App() {
 					}}
 					className='logoStart'
 				>
-					<img
-						src='https://github.com/himrd95/portfolio/blob/main/src/assets/logo_new.png?raw=true'
+					<h1 style={{color:"white"}} >Taruna</h1>
+					{/* <img
+						src='https://media-exp1.licdn.com/dms/image/C4D03AQECQF279-lW7w/profile-displayphoto-shrink_400_400/0/1654181976918?e=1668643200&v=beta&t=OqZ-sdQ9PF5SD4BmW-GX7PF1EHLq3mabUvahhRpGVfg'
 						alt='logo'
-					/>
+					/> */}
 				</div>
 			) : (
 				<div className='components'>
