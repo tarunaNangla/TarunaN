@@ -5,14 +5,24 @@
 @media only screen and (max-width: 1150px) {
 	.streak{
         /* height:450px; */
-        width: 600px;
+        width: 300px;
     }
+
+    .flex{
+        /* height:450px; */
+        width: 200px;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
 	.streak{
         /* height:350px; */
         width: 200px;
+    }
+    .flex{
+        /* height:350px; */
+        width:80px;
     }
 	/* .logoWrapper {
 		padding: 20px 20px;
@@ -23,5 +33,10 @@
         /* margin-top: 10px; */
         /* height:150px; */
         width: 100px;
+    }
+    
+    .flex{
+        /* height:350px; */
+        width: 70px;
     }
 }

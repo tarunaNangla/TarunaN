@@ -34,11 +34,11 @@ src="https://github-readme-streak-stats.herokuapp.com?user=tarunaNangla"></img>
 <div style={{display:"flex",gap:"10px", justifyContent:"center" }} >
 
 <img
-className={Styles.streak}
+className={Styles.flex}
 src="https://github-readme-stats.vercel.app/api?username=tarunaNangla"></img>
 
 <img
-className={Styles.streak}
+className={Styles.flex}
 src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunaNangla&layout=compact"></img>
 </div>
       

@@ -74,7 +74,7 @@ const Navbar = () => {
 
 
 					<a href='#contact'>Contact</a>
-					{/* <a href='#contact'>Contact</a> */}
+					<a href='#home'>Resume</a>
 				</div>
 				{/* <button
 					aria-label={mode === 'dark' ? 'Light Mode' : 'Dark Mode'}
