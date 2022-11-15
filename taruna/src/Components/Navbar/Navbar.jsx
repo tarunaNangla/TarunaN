@@ -75,8 +75,8 @@ const Navbar = () => {
 
 					<a href='#contact'>Contact</a>
 					<a
-							href='Resume/Taruna fw16_331-1 (4).pdf'
-							download={true}
+							href='https://drive.google.com/file/d/1IGq3guE5WTNbR5Dcc0_neATVDO9RR5by/view?usp=sharing'
+							// download={true}
 							target='_blank'
 							rel='noreferrer'
 						>Resume</a>
