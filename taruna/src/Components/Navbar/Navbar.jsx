@@ -74,7 +74,12 @@ const Navbar = () => {
 
 
 					<a href='#contact'>Contact</a>
-					<a href='#home'>Resume</a>
+					<a
+							href='Resume/Taruna fw16_331-1 (4).pdf'
+							download={true}
+							target='_blank'
+							rel='noreferrer'
+						>Resume</a>
 				</div>
 				{/* <button
 					aria-label={mode === 'dark' ? 'Light Mode' : 'Dark Mode'}
