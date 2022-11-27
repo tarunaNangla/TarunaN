@@ -5,7 +5,7 @@ import SideIcons from '../SideIcons/SideIcons';
 import TechStacks from '../TechStacks/TechStacks';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import mypic from "../../profilepic/mypic.jpg"
 import { Button } from '../Button/Button';
 import About from '../About/About';
 import { projects } from '../../constants/Projects';
@@ -112,7 +112,7 @@ const Home = ({ scrollRef }) => {
 					}}
 					className={styles.profileImage}
 				>
-					<img src='https://media-exp1.licdn.com/dms/image/C4D03AQECQF279-lW7w/profile-displayphoto-shrink_400_400/0/1654181976918?e=1668643200&v=beta&t=OqZ-sdQ9PF5SD4BmW-GX7PF1EHLq3mabUvahhRpGVfg' alt='Profile pic' />
+					<img src={mypic} alt='Profile pic' />
 				</div>
 			</div>
 
