@@ -85,7 +85,7 @@ const Home = ({ scrollRef }) => {
 					<h1 id='home'>{intro}</h1>
 					<div  className={styles.btn}>
 						<a
-							href='Resume/Taruna fw16_331-1 (4).pdf'
+							href='Resume/Taruna fw16_331-1 (5).pdf'
 							download={true}
 							target='_blank'
 							rel='noreferrer'
